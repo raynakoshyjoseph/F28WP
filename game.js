@@ -183,7 +183,8 @@ function addbees() {
   var bee = new Bee(num); //creates a new bee
   bee.display(); //displays the new bee created
   bees.push(bee); //adds the new bee that is created to the exisitng array of bees
-  document.getElementById("nbBees");
+  i++; //increments the bees
+  document.getElementById("nbBees").value = i;
 }
 
 function isHit(defender, offender) {

@@ -44,7 +44,8 @@ function start() {
 
 function moveBear(e) {
   if (start != true) {
-    start = true;
+    //if the keys event has not pressed then the best duration does not start
+    start = true; //if the keys are pressed then the best duration starts counting
     lastStingTime = new Date();
   }
 

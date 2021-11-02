@@ -196,7 +196,7 @@ function isHit(defender, offender) {
     if (score === 1000) {
       //Checks if the score is equal to 1000
       clearTimeout(updateTimer); //Uses clearTimeout() to stop the timer
-      console.log(alert("GameOver")); //If the score is equal to 1000 then it alerts game over
+      window.log(alert("GameOver")); //If the score is equal to 1000 then it alerts game over
     }
     //calculate longest duration
     let newStingTime = new Date();
